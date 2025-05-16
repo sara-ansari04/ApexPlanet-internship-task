@@ -1,0 +1,266 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fffafc;
+  color: #333;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color:#fef6f9;
+  box-shadow: 0 2px 5px rgba(237, 233, 233, 0.1);
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #333;
+}
+
+.pink-text {
+  color: #f8a8bf;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e91e63;
+}
+
+/* Hero Section */
+.hero {
+  background: url('pictures internship/hero-background.jpg') no-repeat center center/cover;
+  padding: 100px 20px;
+  text-align: center;
+  color: #000;
+  background-color: #f8c5d7;
+}
+
+.hero-container {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.blog-button {
+  margin-top: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.blog-button:hover {
+  background-color: #333;
+}
+
+
+.about-section {
+  padding: 60px 20px;
+  background-color: #fff0f5;
+}
+
+.about-header {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.about-header span {
+  color: #f8a8bf;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.about-image img {
+  width: 600px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-text h3 {
+  font-size: 1.8rem;
+  color: #444;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+
+.blog {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.blog h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #e91e63;
+}
+
+.pink-background-container {
+  background-color: #fff0f5;
+  padding: 40px 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+
+.flower {
+  width: 100%;
+  max-width: 800px; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe4ec; 
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin: 0 auto;
+}
+
+.flower {
+  margin-bottom: 40px; 
+}
+
+
+.flower img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.flower strong {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #e91e63;
+}
+
+.flower a {
+  display: block;
+  margin: 8px 0;
+  color: #e91e63;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.flower button {
+  background-color: #e91e63;
+  color: pink;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.flower button:hover {
+  background-color: #d81b60;
+}
+
+
+.footer-section {
+  padding: 40px 20px;
+  background-color: #d81b60;
+  text-align: center;
+}
+
+.footer-section p {
+  margin: 10px 0;
+}
+
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #e91e63;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.social-icons a:hover {
+  color: #c2185b;
+}
+
+.footer-section button {
+  background-color: #000;
+  color: pink;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.footer-section button:hover {
+  background-color:pink;
+}
+.footer-section {
+  padding: 40px 20px;
+  background-color: #ffffff; /* white */
+  text-align: center;
+}
+
